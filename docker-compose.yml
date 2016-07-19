@@ -3,7 +3,7 @@ keepalived:
   labels:
     io.rancher.scheduler.global: 'true'
   environment:
-    - VIRTUAL_IP=172.17.8.150
+    - VIRTUAL_IP=172.18.1.68
     - CHECK_PORT=3000
     - VRID=150
     - INTERFACE=eno16777984
